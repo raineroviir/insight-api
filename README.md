@@ -27,6 +27,8 @@ This is a backend-only service. If you're looking for the web frontend applicati
 
 ## Getting Started
 
+Compile qtum from https://github.com/qtumproject/qtum-bitcore.  Then point qtumcore-node to use qtumd from qtum-bitcore.
+
 ```bashl
 npm install -g qtumcore-node@latest
 qtumcore-node create mynode
